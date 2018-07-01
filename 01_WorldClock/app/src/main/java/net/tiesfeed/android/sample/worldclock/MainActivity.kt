@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
 
             // プリファレンスから、保存しているタイムゾーンを得る
             val pref = getSharedPreferences("prefs", Context.MODE_PRIVATE)
-            val timeZones = pref.getStringSet("time_zone", mutableSetOf())
+            val timeZones = pref.getStringSet("time_zone", setOf()).toMutableSet()
 
             // 保存していたタイムゾーン一覧に追加
             timeZones.add(timeZone)
