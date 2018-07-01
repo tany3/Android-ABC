@@ -30,6 +30,8 @@ class TimeZoneAdapter(private val context: Context,
         // タイムゾーン名をセット
         @SuppressLint("SetTextI18n")
         viewHolder.name.text = "${timeZone.displayName}(${timeZone.id}"
+        // タイムゾーンをセット
+        viewHolder.clock.timeZone = timeZone.id
 
         return view
     }
