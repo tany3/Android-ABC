@@ -5,4 +5,4 @@ Android入門系の書籍のコードまとめ
   - [01_WorldClock](https://github.com/tany3/Android-ABC/tree/master/01_WorldClock)
 
 ## Kotlinスタートブック - サンプルプログラミング
-  - to be updated
+  - [02_QiitaClient](https://github.com/tany3/Android-ABC/tree/master/02_QiitaClient)
